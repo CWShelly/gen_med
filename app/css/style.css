@@ -4,9 +4,9 @@ body {
 }
 
 a{
-    color: red;
-    font-size: 3vw;
-    font-weight: bold;
+    color: rgb(18, 54, 170);
+    font-size: 2vw;
+    /*font-weight: bold;*/
     text-shadow: .5px .5px grey;
 }
 
@@ -35,7 +35,7 @@ a{
 .navbar-wrapper .navbar .container {
   width: auto;
     position: absolute;
-    background-color: rgba(255, 255, 255, .1);
+    background-color: rgba(255, 255, 255, .9);
 
 
 }
@@ -46,12 +46,12 @@ a{
 }
 
 .dropdown-toggle{
-  background-color: white;
+  /*background-color: white;*/
 }
 
 .dropdown-menu li a{
   color: rgb(18, 54, 170);
-  background-color: rgba(255,255,255, .75);
+  /*background-color: rgba(255,255,255, .75);*/
 }
 
 
