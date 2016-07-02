@@ -35,19 +35,15 @@ a{
 .navbar-wrapper .navbar .container {
   width: auto;
     position: absolute;
-    background-color: rgba(255, 255, 255, .9);
+    /*background-color: rgba(255, 255, 255, .9);*/
 
 
 }
 
 
-.dropdown-menu li a{
-  /*color: blue;*/
-}
-
-.dropdown-toggle{
-  /*background-color: white;*/
-}
+/*.dropdown-toggle{
+  background-color: red;
+}*/
 
 .dropdown-menu li a{
   color: rgb(18, 54, 170);
