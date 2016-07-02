@@ -1,10 +1,13 @@
 
 body {
-  padding-bottom: 400px;
+  /*padding-bottom: 400px;*/
 }
 
 a{
-    color: rgb(18, 54, 170);
+    color: red;
+    font-size: 3vw;
+    font-weight: bold;
+    text-shadow: .5px .5px grey;
 }
 
 .icon-bar{
@@ -19,6 +22,7 @@ a{
 }
 
 .navbar-wrapper > .container {
+    /*position: absolute;*/
   padding-right: 0;
   padding-left: 0;
   background-color: rgba(255, 255, 255, .1);
@@ -26,56 +30,116 @@ a{
 
 .navbar > .container >
 .navbar-wrapper .navbar {
-
+  position: absolute;
 }
 .navbar-wrapper .navbar .container {
   width: auto;
+    position: absolute;
+    background-color: rgba(255, 255, 255, .1);
+
 
 }
 
-.dropdown-menu{
-  background-color: rgba(255, 0, 0, 0.5);
 
+.dropdown-menu li a{
+  /*color: blue;*/
 }
 
-.dropdown-menu li{
-  color: white;
+.dropdown-toggle{
+  background-color: white;
 }
+
+.dropdown-menu li a{
+  color: rgb(18, 54, 170);
+  background-color: rgba(255,255,255, .75);
+}
+
+
 .carousel {
-  height: 700px;
-  margin-bottom: 60px;
+  /*position: relative;*/
+  height: 600px;
+  margin-bottom: 50px;
+  /*border: 3px solid green;*/
+
+}
+img{
+  position: relative;
+  /*height: a;*/
+  /*border: 4px solid red;*/
 }
 
-.carousel-caption {
+
+
+/*.carousel-caption {
+  position: absolute;
   z-index: 10;
-}
+  border: 1px solid orange;
+  color:red;
+  font-size: 2.5vw;
+  padding-bottom: 10%;
+  height: .5vw;
+}*/
 
 .carousel .item {
-  height: 500px;
-  /*background-color: rgb(0, 0, 255);*/
+  position: relative;
+  /*height: 500px;*/
+  background-color: rgb(0, 0, 255);
+  /*padding-bottom: 500%;*/
+  margin: auto;
 }
 .carousel-inner > .item > img {
-  position: absolute;
+  /*position: relative;*/
   top: 0;
   left: 0;
   min-width: 100%;
   /*height: 500px;*/
+  /*border: 5px solid purple;*/
 }
 
+.carousel-caption{
+  /*color: pink;*/
+  position: absolute;
+  /*font-size: 3.9vw;*/
+  /*border: 3px dotted black;*/
+  min-width: auto;
+  min-height: auto;
 
+
+}
+
+ .sticky{
+   /*position: absolute;*/
+   color: white;
+    font-size: 3.9vw;
+    /*height: 500px;*/
+}
+
+.btn{
+  /*min-width: 50%;*/
+  color: white;
+}
+
+/*.btn a{
+  height: 1vw;
+}*/
+/*
 .marketing .col-sm-4 {
-  margin-bottom: 20px;
+  margin-bottom: 20000px;
   text-align: center;
+  position: fixed;
+  /*color: orange;*/
 
+/*}*/
+/*.marketing h2 {
+  font-weight: normal;*/
+  /*color: orange;*/
+/*}*/
 
-}
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .col-lg-4 p {
+/*.marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
-}
+  /*color: blue;*/
+/*}*/
 
 
 
